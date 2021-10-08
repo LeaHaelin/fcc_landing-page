@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
+/* font-family: 'Annie Use Your Telescope', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Explora&family=Rajdhani:wght@600&display=swap");
+/* font-family: 'Cinzel', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+/* font-family: 'Fredericka the Great', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Mate&display=swap");
+/* font-family: 'Mate', serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(224, 223, 236);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+
+.logo-name {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 14px;
+  position: relative;
+  bottom: 8px;
+}
+
+.logo-box {
+  text-align: center;
+}
+
+.logo-title {
+  /* font-family: "Fredericka the Great", cursive */
+  font-family: "Cinzel", serif;
+  /* font-family: "Annie Use Your Telescope", cursive; */
+  font-size: 14;
+  text-align: center;
+  color: rgb(67, 114, 114);
+  width: 190px;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+nav {
+  width: 400px;
+  text-align: right;
+  padding: 30px;
+}
+
+.nav-link {
+  border: 1px solid rgb(155, 151, 179);
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 3px;
+  color: rgb(64, 74, 119);
+  font-family: "Cinzel", serif;
+  font-size: 12px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Mate", serif;
+  overflow: hidden;
+}
+
+.container__home {
+  padding: 50px;
+  font-family: "Fredericka the Great", cursive;
+}
+.containter__submit {
+  padding: 40px;
+  font-size: 26px;
+}
+
+.__form_email {
+  height: 24px;
+  font-family: "Mate", serif;
+  border-radius: 3px;
+  /* padding-left: 5px; */
+}
+.__form_email::placeholder {
+  padding-left: 5px;
+}
+
+.__form_submit {
+  height: 22px;
+  width: 60px;
+  color: rgb(41, 61, 50);
+  background-color: rgb(180, 219, 180);
+  padding: 3px;
+  border: 1px solid rgb(199, 224, 199);
+  border-radius: 3px;
+  font-family: "Mate", serif;
+  cursor: pointer;
+}
+
+.container__service_box {
+  width: 300px;
+  height: 300px;
+  padding: 26px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 5px 5px rgb(179, 197, 158);
+}
+
+.__service_title {
+  font-family: "Fredericka the Great", cursive;
+  padding: 30px;
+}
+
+.__service_p {
+  font-family: "Mate", serif;
+}
+
+.youtube-video {
+  padding: 30px;
+  width: 90%;
+  max-width: 990px;
+  height: 315px;
+}
+
+.web {
+  border: 1px solid rgb(214, 207, 233);
+  padding: 20px;
+}
+
+footer {
+  margin-top: 30px;
+}
+.contact {
+  width: 30px;
+  padding: 2px;
+}
+
+.icons-by {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 760px) {
+  .logo-title {
+    width: auto;
+    position: relative;
+    left: 50px;
+  }
+  .container__home {
+    font-size: 50px;
+    padding-top: 100px;
+  }
+  .containter__submit {
+    font-size: 40px;
+    padding: 100px;
+  }
+
+  .__form_email {
+    width: 200px;
+    height: 30px;
+  }
+
+  .__form_submit {
+    width: 70px;
+    height: 30px;
+  }
+
+  .container__service {
+    border: 1px solid rgb(169, 169, 192);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 1100px;
+    padding: 30px;
+    margin: auto;
+  }
+
+  .container__service_box {
+    position: relative;
+    bottom: 12px;
+  }
+
+  .youtube-video {
+    margin-top: 40px;
+    height: 500px;
+  }
+}
